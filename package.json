@@ -1,0 +1,18 @@
+{
+  "name": "stryker-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "stryker": "stryker run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stryker-mutator/core": "^7.1.1",
+    "@stryker-mutator/mocha-runner": "^7.1.1",
+    "mocha": "^10.2.0",
+    "stryker-cli": "^1.0.2"
+  }
+}
